@@ -1,0 +1,467 @@
+* {
+  font-family: "Fira Sans", serif;
+}
+
+/* Common Style */
+
+.bg_color {
+  background-color: #c6e4d6;
+}
+.text_center {
+  text-align: center;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #f1f1f3;
+}
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bd_title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0e0e0e;
+}
+.nav_btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #006a50;
+  background-color: transparent;
+  border: 2px solid #006a50;
+  padding: 15px 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+/* banner part start */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.ban_title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #0e0e0e;
+  opacity: 50%;
+}
+.ban_paragraph {
+  font-weight: 700;
+  font-size: 56px;
+  color: #0e0e0e;
+  padding-right: 70px;
+}
+.ban_btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #006a50;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/* pillar section start */
+
+#pillar {
+  margin: 50px 0;
+}
+
+.pillar {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.pillar_container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pillar_card {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+.pillar_title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+.pillar_description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+  line-height: 24px;
+}
+
+/* The Vision of Future */
+
+#vision {
+  margin-top: 50px;
+}
+.vision_title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.vision_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+
+.vision_container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.vision_card_1 {
+  align-items: center;
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.vision_card_2 {
+  width: 410px;
+  background-color: #c6e4d6;
+  padding: 32px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.vision_card_3 {
+  width: 410px;
+  background-color: #f7ebcf;
+  padding: 32px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.vision_card_title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+}
+.vision_card_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.vision_card_btn_1 {
+  padding: 11px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.vision_card_btn_2 {
+  padding: 11px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #09a15c;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.vision_card_btn_3 {
+  padding: 11px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #ffc239;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.resume {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 25px 24px 48px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.resume_bg {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+}
+.resume_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+.resume_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+.resume_details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 60%;
+}
+
+/* Your Opinion Matters Start */
+
+#opinion {
+  margin-top: 50px 0;
+}
+.opinion_title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+
+.opinion_container {
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+th {
+  padding: 24px;
+}
+.tr_top {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.th_top_1 {
+  text-align: start;
+}
+.td_description {
+  font-weight: 600;
+  font-size: 16px;
+  color: #0e0e0e;
+}
+.td_btn {
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0e0e0e;
+  padding: 10px 16.5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Recent News Start */
+
+#news {
+  margin: 100px 0;
+}
+
+.news_title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.news_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.news_container {
+  background-color: white;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.news_card_img {
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.news_card_title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+date {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.news_card_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.news_card_btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 13px 26px;
+  background: #006a50;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.news_container_card_1 {
+  margin-top: -30px;
+}
+
+/* Donate Today Part Start */
+#donate {
+  margin: 100px 0;
+  padding: 0 88px;
+}
+.donate_title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.donate_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.donate_rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.donate_money {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.donate_money:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.donate_input {
+  margin-top: 32px;
+  padding: 20px 0;
+  width: 90%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate_input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  color: #0e0e0e;
+  opacity: 30%;
+}
+.donate_btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 17px 34px;
+  border: none;
+  margin-top: 32px;
+  background-color: #006a50;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
