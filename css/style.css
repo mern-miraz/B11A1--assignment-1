@@ -465,3 +465,67 @@ date {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+
+/* Subscribe Newsletter Part Start */
+
+#subscribe {
+  margin: 100px;
+}
+.subs_container {
+  padding: 80px 0;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.subscribe_title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.subscribe_description {
+  padding: 0 200px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.subscribe_input {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subs_input {
+  font-size: 18px;
+  padding: 17px 40px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.subs_input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 30%;
+}
+.subs_btn {
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.subs_end {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+  margin-top: 24px;
+}
