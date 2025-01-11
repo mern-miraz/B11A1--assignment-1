@@ -472,7 +472,7 @@ date {
   margin: 100px;
 }
 .subs_container {
-  padding: 80px 0;
+  padding: 40px 0 80px 0;
   border-radius: 24px;
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
@@ -528,4 +528,19 @@ date {
   color: #0e0e0e;
   opacity: 70%;
   margin-top: 24px;
+}
+.footer {
+  padding: 50px 0;
+}
+.footer_bd_title {
+  font-weight: bold;
+  font-size: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.footer_icon {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
